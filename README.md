@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 O projeto foi desenvolvido em um teste para uma vaga de Front-end, onde foi requerido a construção de um CRUD para a publicação, edição e visualização de publicações.
 
-- [Versão Demo Web](https://emeritvs-news.web.app)
+- [Versão Demo Web](https://emeritvs-news.web.app) (Responsiva para Mobile)
 - [Versão Demo Mobile (Em breve)]
 
 ## 🔧 Instalação
