@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "emeritvs-news": {
+      "hosting": {
+        "frontend": [
+          "emeritvs-news"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "emeritvs-news"
+  }
+}

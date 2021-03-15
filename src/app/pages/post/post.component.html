@@ -1,0 +1,25 @@
+<app-header></app-header>
+
+<div class="flex h-full w-full py-20 px-40 bg-cover bg-no-repeat enableBlur rounded-md" style="background-image: url({{postThumb}});">
+  <div class="bg-white flex flex-col disableBlur w-full">
+
+    <div class="overflow-hidden shadow-lg bg-white">
+      <div class="w-full h-96 bg-cover" style="background-image: url({{postThumb}});">
+      </div>
+
+      <div class="px-20 mt-10">
+        <h1 class="text-4xl justify-between font-bold mb-4">{{postData.title}}</h1>
+        <div class="flex items-center">
+          <img class="w-12 h-12 rounded-full mr-4" src="https://images.unsplash.com/photo-1489481039754-8701aeda983b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=50&h=50&q=80">
+          <div class="text-sm">
+            <p class="text-gray-900 leading-none text-xl font-bold">{{postData.author}} ・ {{postData.date}}</p>
+            <p class="text-blue-500 leading-none text-sm mt-2">{{postData.subject}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white p-20 lg:text-xl xl:text-2xl flex justify-start whitespace-pre">{{postData.content}}</div>
+
+  </div>
+</div>

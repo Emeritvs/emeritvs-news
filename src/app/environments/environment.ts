@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+
   firebase: {
     apiKey: "AIzaSyAafAdCsnGXg-YOHujJbr7-OK2hpVM1wxc",
     authDomain: "emeritvs-news.firebaseapp.com",

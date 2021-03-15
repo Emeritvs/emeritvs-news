@@ -1,0 +1,32 @@
+.edit-button {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  display: none;
+  transition: display 0.2s;
+}
+
+// .post-thumb {
+//   padding: 0px;
+// }
+
+// .post-thumb:hover {
+//   filter: blur(4px);
+// }
+
+.post-card:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+  
+  .post-title {
+    @apply text-green-500;
+  }
+}
+
+.post-thumb-container:hover {
+  .edit-button {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: block;
+  }
+}
