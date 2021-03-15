@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Team Maker Angular" title="Emeritvs Comics" src=".github/logo.png" width="50%" />
+    <img alt="EmeritvsNews" title="EmeritvsNews" src=".github/logo.png" width="50%" />
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="TeamMaker" src=".github/teammaker.png" width="100%">
+  <img alt="EmeritvsNews" src=".github/emeritvs-news.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
